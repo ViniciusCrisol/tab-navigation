@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Navigation</title>
+  </head>
+  <body>
+    <div id="page">
+      <header>
+        <h1>NBA <span>vs</span> FIBA</h1>
+      </header>
+      <main>
+        <div id="tabs">
+          <div class="tab-links">
+            <button data-id="prepare" data-open>Duração</button>
+            <button data-id="produce">3 pontos</button>
+            <button data-id="delivery">jogada</button>
+          </div>
+
+          <div class="tab-content">
+            <section id="prepare">
+              <h2>A duração dos jogos é diferente?</h2>
+              <p>
+                Sim, um jogo seguindo as regras da NBA possui 4 tempos de 12min.
+                Já nas regras da FIBA temos 4 tempos de 10min.
+              </p>
+            </section>
+            <section id="produce">
+              <h2>A distâcia dos 3 pontos é diferente?</h2>
+              <p>
+                A NBA possui uma linha de 3 pontos que fica a 7.24m da cesta. Já
+                a FIBA em seu regulamento determina 6.75m de distâcia.
+              </p>
+            </section>
+            <section id="delivery">
+              <h2>O tempo de jogada é diferente?</h2>
+              <p>
+                A FIBA possui um shot clock de 24s que é resetado para 14 após
+                um rebote ofensivo. Já na NBA o tempo máximo de uma jogada é de
+                24s.
+              </p>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
